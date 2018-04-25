@@ -2,16 +2,7 @@ var cards = ["queen", "queen", "king", "king"];
 
 var cardsInPlay = [];
 
-// var cardOne = cards[0];
-// cardsInPlay.push(cardOne);
-// console.log("User flipped " + cardOne);
-
-// var cardTwo = cards[2];
-// cardsInPlay.push(cardTwo);
-// console.log("User flipped " + cardTwo);
-
-
-
+//Create a function to check to if the cards match
 var checkForMatch = function() {
   if(cardsInPlay[0] === cardsInPlay[1]){
     alert("You found a match!");
@@ -20,6 +11,7 @@ var checkForMatch = function() {
   }
 }
 
+//This function will call each card then check for a match
 var flipCard = function(cardId) {
   cardsInPlay.push(cards[cardId]);
   console.log("User flipped " + cards[cardId]);
