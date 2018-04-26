@@ -11,12 +11,12 @@ header {
 }
 
 h1 {
-font-family: "Raleway", sans-serif;
-color: #0D2C40;
-letter-spacing: 1px;
-font-weight: 400;
-font-size: 45px;
-margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #0D2C40;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 45px;
+  margin: 0;
 }
 
 nav {
@@ -26,18 +26,18 @@ nav {
 }
 
 a {
-font-family: "Raleway", sans-serif;
-color: #FFFFFF;
-letter-spacing: 1px;
-font-weight: 600;
-font-size: 18px;
-text-decoration: none;
-margin: 0 20px 0 20px;
-border-bottom: 2px solid transparent;
+  font-family: "Raleway", sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 20px 0 20px;
+  border-bottom: 2px solid transparent;
 }
 
 a:hover {
-  border: white;
+  border: 2px solid white;
 }
 
 main {
@@ -46,21 +46,21 @@ main {
 }
 
 h2 {
-font-family: "Raleway", sans-serif;
-color: #0D2C40;
-letter-spacing: 1px;
-font-weight: 600;
-font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #0D2C40;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 p {
-font-family: "Droid Serif", serif;
-line-height:26px;
-font-size: 18px;
+  font-family: "Droid Serif", serif;
+  line-height:26px;
+  font-size: 18px;
 }
 
 img {
-margin: 40px 8px;
+  margin: 40px 8px;
 }
 
 footer {
@@ -88,10 +88,11 @@ footer {
 }
 
 .clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
+
